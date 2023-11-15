@@ -10,14 +10,14 @@ class ModuleTest extends TestCase
     public function testDefaultVersion()
     {
         $this->mockApplication();
-        Yii::$app->extensions['yiisoft/yii2-gii'] = [
-            'name' => 'yiisoft/yii2-gii',
-            'version' => '2.0.6',
+        Yii::$app->extensions['ziphp/gii'] = [
+            'name' => 'ziphp/gii',
+            'version' => '5.0.1',
         ];
 
         $module = new Module('gii');
 
-        $this->assertEquals('2.0.6', $module->getVersion());
+        $this->assertEquals('5.0.1', $module->getVersion());
     }
 
     /**
