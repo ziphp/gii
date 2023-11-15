@@ -1,5 +1,5 @@
 {
-    "name": "yiisoft/yii2-gii",
+    "name": "ziphp/gii",
     "description": "The Gii extension for the Yii framework",
     "keywords": [
         "yii2",
@@ -9,11 +9,8 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yiisoft/yii2-gii/issues",
-        "forum": "https://www.yiiframework.com/forum/",
-        "wiki": "https://www.yiiframework.com/wiki/",
-        "irc": "ircs://irc.libera.chat:6697/yii",
-        "source": "https://github.com/yiisoft/yii2-gii"
+        "issues": "https://github.com/ziphp/gii/issues",
+        "source": "https://github.com/ziphp/gii"
     },
     "authors": [
         {
@@ -23,7 +20,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "yiisoft/yii2": "~2.0.46",
+        "ziphp/ziphp": ">=5.0.0",
         "phpspec/php-diff": "^1.1.0"
     },
     "require-dev": {
@@ -67,7 +64,7 @@
         },
         "allow-plugins": {
             "cweagans/composer-patches": true,
-            "yiisoft/yii2-composer": true
+            "ziphp/zipper": true
         }
     },
     "repositories": [
